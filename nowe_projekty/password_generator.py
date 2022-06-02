@@ -9,14 +9,14 @@ small=['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O'
 numbers=['1','2','3','4','5','6','7','8','9','0']
 special=['!','@','#','$','%','&','*','?','^','(',')','[',']',';',"'",'<','>','?','?','+','=','-']
 
-length=int(input("Wpisz dlugosc hasla: "))
-special_c=input("Czy ma zawierac znaki specjalne(T/N): ")
-numbers_c=input("Czy ma zawierac liczby(T/N): ")
+length=int(input("Enter passsword length: "))
+special_c=input("Include special signs(Y/N)?: ")
+numbers_c=input("Include numbers(Y/N)?: ")
 
-if special_c=='T':
+if special_c=='Y':
     s=True
 
-if numbers_c=='T':
+if numbers_c=='Y':
     n=True
 
 

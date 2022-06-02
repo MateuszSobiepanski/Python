@@ -5,7 +5,7 @@ large_r={0:'a',1:'b',2:'c',3:'d',4:'e',5:'f',6:'g',7:'h',8:'i',9:'j',10:'k',11:'
 
 message=input("Enter message you want to encrpyt/decrypt: ")
 choice=int(input("Enter 1 for encryption and 2 for decryption: "))
-choice_r=int(input("Enter 1 for manual rotor setup and 2 for automatic rotor setup: \n"))
+choice_r=int(input("Enter 1 for manual rotor setup and 2 for automatic rotor setup(unbelievable for decryption): \n"))
 
 if choice_r==1:
     r1=r1_o=int(input("Enter positon of the first rotor(1,26): "))
